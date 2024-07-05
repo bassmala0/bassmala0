@@ -1,0 +1,93 @@
+* {
+    background-color: rgb(193, 189, 189);
+    font-family: serif;
+}
+
+.users-stories {
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+}
+
+.users-stories img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    border: 2px solid #fff;
+    background: linear-gradient(rgb(144, 211, 144), rgb(226, 134, 226));
+    cursor: pointer;
+}
+
+.users-stories figure {
+    margin: 0 1em 0 0;
+    align-items: center;
+}
+
+.users-stories figcaption {
+    align-items: center;
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    margin-left: -2%;
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+}
+
+.talking {
+    display: flex;
+    cursor: pointer;
+    height: 70px;
+}
+
+.talking :hover {
+    background-color: #a5a4a4;
+}
+
+.talking img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:700px) {
+    .space {
+        height: 20px;
+    }
+
+    .material-symbols-outlined {
+        position: absolute;
+        margin-bottom: 10%;
+    }
+
+    figcaption {
+        display: none;
+    }
+
+    .users-stories {
+        height: 70px;
+    }
+
+    .users-stories img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .talking {
+        height: 60px;
+    }
+
+    .talking h5 {
+        margin-bottom: 90px;
+    }
+}
