@@ -64,8 +64,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    margin-top: -15%;
-    margin-right: -20%;
+    margin-top: -25%;
+    margin-right: -35%;
     background-color: transparent;
     z-index: 2;
 }
@@ -96,7 +96,7 @@
 p {
     position: absolute;
     margin-top: -6%;
-    margin-left: -12%;
+    margin-left: -15%;
     z-index: 2;
     background-color: transparent;
     color: whitesmoke;
