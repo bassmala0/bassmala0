@@ -13,10 +13,6 @@
     flex-direction: column;
 }
 
-.video-container video {
-    z-index: 1;
-}
-
 .circle img {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
