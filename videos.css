@@ -223,7 +223,8 @@ p {
 
 @media(min-height:1150px) {
     .video-container {
-        margin-bottom: -100%;
-        margin-top: -600px;
+        margin-bottom: -285px;
+        margin-top: -280px;
+        height: -50%;
     }
 }
