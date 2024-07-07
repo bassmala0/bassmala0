@@ -221,3 +221,10 @@ p {
         margin-left: -180px;
     }
 }
+
+@media(min-height:1150px) {
+    .video-container {
+        margin-bottom: -100%;
+        margin-top: -600px;
+    }
+}
