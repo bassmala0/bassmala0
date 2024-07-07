@@ -1,0 +1,223 @@
+* {
+    background-color: rgb(193, 189, 189);
+    font-family: serif;
+}
+
+.videos {
+    display: inline;
+    position: relative;
+}
+
+.video-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    flex-direction: column;
+    position: relative;
+}
+
+.circle img {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    display: flex;
+    height: 40px;
+    margin-top: 1%;
+    margin-left: -10%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.video-container h4 {
+    margin-left: -5%;
+    cursor: pointer;
+    margin-bottom: 55%;
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.video-container h5 {
+    margin-left: 5%;
+    margin-bottom: 55%;
+    position: absolute;
+    border: 0.5px dashed white;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.video-container video {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -250px;
+    margin-right: -300px;
+    background-color: transparent;
+    z-index: 2;
+    margin-bottom: 0px;
+}
+
+.container span {
+    display: block;
+    font-size: 35px;
+    color: white;
+    background-color: transparent;
+    padding: 2px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.container h6 {
+    display: block;
+    font-size: 10px;
+    margin: 10px;
+    margin-top: -4px;
+    margin-left: 10px;
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 2;
+}
+
+p {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -180px;
+    z-index: 2;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+@media(max-width:768px) {
+
+    .video-container {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        height: 100hv;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .circle img {
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        position: absolute;
+        display: flex;
+        height: 40px;
+        height: 40px;
+        margin-top: 1%;
+        margin-left: -10%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .video-container h4 {
+        margin-left: -5%;
+        cursor: pointer;
+        margin-bottom: 55%;
+        position: absolute;
+        color: white;
+        background-color: transparent;
+        z-index: 2;
+    }
+
+    .video-container h5 {
+        margin-left: 5%;
+        margin-bottom: 55%;
+        position: absolute;
+        border: 0.5px dashed white;
+        color: white;
+        background-color: transparent;
+        padding: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .video-container video {
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -25%;
+        margin-right: -33%;
+        background-color: transparent;
+        z-index: 2;
+    }
+
+    .container span {
+        display: block;
+        font-size: 35px;
+        color: white;
+        background-color: transparent;
+        padding: 2px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .container h6 {
+        display: block;
+        font-size: 10px;
+        margin: 10px;
+        margin-top: -4px;
+        margin-left: 10px;
+        position: absolute;
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    p {
+        position: absolute;
+        margin-top: -6%;
+        margin-left: -15%;
+        z-index: 2;
+        background-color: transparent;
+        color: whitesmoke;
+    }
+
+}
+
+@media(max-width:450px) {
+
+    .video-container h4 {
+        margin-left: -90px;
+    }
+
+    .circle img {
+        margin-left: -150px;
+    }
+
+    .container {
+        margin-left: 170px;
+        margin-top: -200px;
+        margin-bottom: -10px;
+    }
+
+    p {
+        margin-top: -80px;
+        margin-left: -180px;
+    }
+}
